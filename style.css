@@ -10,7 +10,7 @@
 @media (max-width: 768px) {
     .list-inline-item {
         display: block;
-        margin-bottom: 10px; /* Adds space between the buttons */
+        margin-bottom: 15px; /* Adds space between the buttons */
     }
 
     .list-inline-item:last-child {
@@ -22,4 +22,8 @@
         font-size: 12px; /* Smaller font size */
     }
 }
-
+@media (max-width: 992px){
+    .list-inline-item {
+        margin-bottom: 10px;
+    }
+}
