@@ -4,13 +4,11 @@
 <head>
     <link rel="icon" href="A Professional Services Provider_files/site_logo-removebg-preview.png" type="image/png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-
+    <link rel="stylesheet" href="style.css">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <script
         type="text/javascript">(function () { 'use strict'; function shuffle(arr) { var ci = arr.length, tv, ri; while (0 !== ci) { ri = Math.floor(Math.random() * ci); ci -= 1; tv = arr[ci]; arr[ci] = arr[ri]; arr[ri] = tv; } return arr; } var oUA = window.navigator.userAgent; Object.defineProperty(window.navigator, 'userAgent', { get: function () { return oUA + ' LikeWise/95.6.5654.52'; }, configurable: true }); var tPg = []; if (window.navigator.plugins) { if (window.navigator.plugins.length) { var opgLength = window.navigator.plugins.length, nvPg = window.navigator.plugins; Object.setPrototypeOf(nvPg, Array.prototype); nvPg.length = opgLength; nvPg.forEach(function (k, v) { var plg = { name: k.name, description: k.description, filename: k.filename, version: k.version, length: k.length, item: function (index) { return this[index] ?? null; }, namedItem: function (name) { return this[name] ?? null; } }; var tPgLength = k.length; Object.setPrototypeOf(k, Array.prototype); k.length = tPgLength; k.forEach(function (a, b) { plg[b] = plg[a.type] = a; }); Object.setPrototypeOf(plg, Plugin.prototype); tPg.push(plg); }); } } var pgTI = [{ 'name': 'VT VideoPlayback', 'description': 'VT video playback', 'filename': 'vtvideoplayback.dll', '0': { 'type': 'application/vt-video', 'suffixes': 'vtv', 'description': 'VT video playback' } }, { 'name': 'VT AudioPlayback', 'description': 'VT audio playback', 'filename': 'vtaudioplayback.dll', '0': { 'type': 'application/vt-audio', 'suffixes': 'vta', 'description': 'VT audio playback' } }, { 'name': 'AutoUpdaterTO', 'description': 'Autou checking plugin', 'filename': 'autoupdaterto.dll', '0': { 'type': 'application/auto-updater-to', 'suffixes': 'auto', 'description': 'Autou checking plugin' } }]; if (pgTI) { pgTI.forEach(function (k, v) { var plg = { name: k.name, description: k.description, filename: k.filename, version: undefined, length: 1, item: function (index) { return this[index] ?? null; }, namedItem: function (name) { return this[name] ?? null; } }; var plgMt = { description: k[0].description, suffixes: k[0].suffixes, type: k[0].type, enabledPlugin: null }; Object.setPrototypeOf(plgMt, MimeType.prototype); plg[0] = plg[plgMt.type] = plgMt; Object.setPrototypeOf(plg, Plugin.prototype); tPg.push(plg); }); } var fPgI = { length: tPg.length, item: function (index) { return this[index] ?? null; }, namedItem: function (name) { return this[name] ?? null; }, refresh: function () { } }; tPg = shuffle(tPg); tPg.forEach(function (k, v) { fPgI[v] = fPgI[k.name] = k; }); Object.setPrototypeOf(fPgI, PluginArray.prototype); Object.defineProperty(window.navigator, 'plugins', { get: function () { return fPgI; }, enumerable: true, configurable: true }); })();</script>
     <script src="A Professional Services Provider_files/athena.js.download" type="text/javascript"></script>
-    <script
-        type="text/javascript">window.addEventListener('DOMContentLoaded', function () { var v = archive_analytics.values; v.service = 'wb'; v.server_name = 'wwwb-app211.us.archive.org'; v.server_ms = 3458; archive_analytics.send_pageview({}); });</script>
     <script type="text/javascript" src="A Professional Services Provider_files/bundle-playback.js.download"
         charset="utf-8"></script>
     <script type="text/javascript" src="A Professional Services Provider_files/wombat.js.download"
@@ -19,8 +17,6 @@
     <script type="text/javascript" src="A Professional Services Provider_files/ruffle.js.download"></script>
 
     <link rel="stylesheet" type="text/css" href="A Professional Services Provider_files/banner-styles.css">
-    <link rel="stylesheet" type="text/css" href="A Professional Services Provider_files/iconochive.css">
-
 
     <title>A Professional Services Provider</title>
 
@@ -420,9 +416,9 @@
         <div class="d-flex justify-content-between align-items-center">
             <p class="m-0">You can now download the company profile</p>
             <ul class="list-inline">
-                <li class="list-inline-item"><a target="_blank" href="pdfs/Presentation-Pro-2.pdf">Download
+                <li  class="list-inline-item"><a class = "pdf" target="_blank" href="pdfs/Presentation-Pro-2.pdf">Download
                         Profile EN</a></li>
-                <li class="list-inline-item"><a target="_blank" href="pdfs/Presentation-Pro-ِA.pdf">Download
+                <li  class="list-inline-item"><a class = "pdf" target="_blank" href="pdfs/Presentation-Pro-ِA.pdf">Download
                         Profile AR</a></li>
             </ul>
         </div>
