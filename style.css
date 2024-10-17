@@ -1,0 +1,25 @@
+.pdf{
+    border-radius: 50px;
+}
+
+.pdf:hover{
+    background-color: white;
+    color: black;
+}
+
+@media (max-width: 768px) {
+    .list-inline-item {
+        display: block;
+        margin-bottom: 10px; /* Adds space between the buttons */
+    }
+
+    .list-inline-item:last-child {
+        margin-bottom: 0; /* Removes extra space after the last button */
+    }
+
+    .pdf {
+        padding: 10px 15px; /* Smaller padding for smaller screens */
+        font-size: 12px; /* Smaller font size */
+    }
+}
+
